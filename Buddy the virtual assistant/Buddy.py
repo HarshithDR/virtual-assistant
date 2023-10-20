@@ -59,8 +59,8 @@ def sendemail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('maxwelljohn123123@gmail.com', 'qwerty0987!@#$')
-    server.sendmail('maxwelljohn123123@gmail.com', to, content)
+    server.login('example3@gmail.com', 'example_password')
+    server.sendmail('example1@gmail.com', to, content)
     server.close()
 
 voice_num = 0
